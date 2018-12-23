@@ -1,0 +1,31 @@
+{
+  "name": "todoappserver",
+  "version": "1.0.0",
+  "description": "RESTful API Server for ToDoApp project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babychick/ToDoApp.git"
+  },
+  "keywords": [
+    "Phi.Nguyen"
+  ],
+  "author": "Phi.Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babychick/ToDoApp/issues"
+  },
+  "homepage": "https://github.com/babychick/ToDoApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "colors": "^1.3.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0",
+    "mongoose-auto-increment": "^5.0.1",
+    "nodemon": "^1.18.9"
+  }
+}
